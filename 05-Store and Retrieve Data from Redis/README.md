@@ -7,3 +7,4 @@ Redis does not natively support TLS, so you first need to establish a TLS connec
 I recommend using [stunnel](https://www.stunnel.org/) on Windows Subsystem for Linux (WSL) in order to establish a TLS connection to Azure Redis Cache.
 Technically stunnel is supported on the Windows platform as well, but the graphical client is confusing compared to the CLI.
 
+Refer to the [Azure Documentation](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-how-to-redis-cli-tool) for how to create a Stunnel configuration file, to create the TLS tunnel.
